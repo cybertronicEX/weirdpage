@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+      background-image: url("https://img.freepik.com/free-vector/light-pink-heart-pattern_53876-67663.jpg?w=2000");
+    }
+
+    #evil-button {
+      width: 8rem;
+      height: 4rem;
+      position: absolute;
+      white-space: nowrap;
+      background-color :purple;
+      color:white;
+      outline: 0;
+      border-radius: 5px;
+      
+    }
+    #button {
+    width: 8rem;
+    height: 4rem;
+    background-color :purple;
+    color:white;
+    outline: 0;
+    border-radius: 5px;
+    }
+    #button:hover {
+        background-color: rgb(175, 169, 169);
+        color: purple;
+        position: static;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div className="Date">
+    <h1>Would you go out on a date with me?</h1>
+    <div className="image">
+      <img className="slideshow" src="https://i.imgflip.com/6tci39.jpg" alt="dad"/>
+    </div>
+    <div className="butt">
+      <button id="button" onClick="clickMe()">I'd love to</button>
+      <script>
+         function clickMe(){
+    alert("yaaayyyyy! Me loves u UwU <3");
+  } 
+      </script>
+      <button id="evil-button">Nope</button>
+    </div>
+  </div>
+    <!-- <button id="evil-button">NOO</button> -->
+</body>
+</html>
